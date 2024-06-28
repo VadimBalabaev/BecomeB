@@ -1,0 +1,89 @@
+/* font-family: "Playwrite DE Grund", cursive;
+font-family: "Roboto", sans-serif;
+font-family: "Bebas Neue", sans-serif; */
+:root{
+    --all-color: #7cbdbd65;
+    --any-color: #fff;
+}
+body{
+    background-color: var(--all-color);
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 65px;
+}
+h2{
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 40px;
+}
+h4{
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+p{
+
+}
+
+.container{
+    padding: 0 10px 0 10px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header {
+    min-height: 300px;
+}
+.header h1 {
+    text-align: center;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.nav {
+    width: 90%;
+    display: flex;
+    gap: 25px;
+    padding-left: 15%;
+}
+.item__nav {
+    font-family: "Playwrite DE Grund", cursive;
+    font-style: 18px;
+}
+.header__inner h3{
+    width: 30%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+}
+.header__inner i {
+    width: 10%;
+    font-size: 30px;
+    
+}
+.about {
+    background-color: var(--any-color);
+}
+.about h2 {
+    margin-bottom: 100px;
+}
+.about__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
+    gap: 20px;
+}
+.about__item {
+    /* max-width: 400px; */
+}
+.about__item img {
+
+}
+.about__item h4 {
+    
+}
+.about__item p {
+    max-width: 400px;
+}
